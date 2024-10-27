@@ -11,7 +11,8 @@ const config: Config = {
       colors: {
         darkWhite: "#f9f8f6",
         grey: "#e8e6e3",
-        greyText: "#777169"
+        darkGrey: "#bdbbb9",
+        greyText: "#777169",
       },
     },
   },
