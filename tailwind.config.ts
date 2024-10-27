@@ -8,11 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
       colors: {
         darkWhite: "#f9f8f6",
         grey: "#e8e6e3",
         darkGrey: "#bdbbb9",
         greyText: "#777169",
+      },
+      animation: {
+        scroll: 'scroll 20s linear infinite',
       },
     },
   },
