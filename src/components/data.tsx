@@ -13,7 +13,7 @@ export default function Data() {
                 </div>
                 <img src="https://finchat.io/_next/image/?url=%2Fassets%2Fmarketing-pages%2Ftable.png&w=1200&q=75" className="-z-50 top-0 absolute h-full w-full" />
             </div>
-            <div className="flex flex-col justify-center gap-y-4 md:ml-36 w-full">
+            <div className="flex flex-col justify-center gap-y-4 md:ml-36 w-full md:px-0 px-28">
                 <h1 className={`${jakartaSans.className} text-balance tracking-wide leading-none text-gray-900  text-4xl`}>
                     Better data for better<br />decisions.
                 </h1>

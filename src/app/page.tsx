@@ -5,10 +5,12 @@ import Notifications from "../components/notifications"
 import Data from "../components/data"
 import Assistant from "../components/assistant"
 import Customize from "../components/customize"
+import Work from "../components/work"
+import Graph from "../components/graph"
 
 export default function Home() {
   return (
-    <main className="bg-customWhite h-[4000px]">
+    <main className="bg-customWhite h-[8000px]">
       <Navbar />
       <Hero />
       <Partners />
@@ -16,6 +18,8 @@ export default function Home() {
       <Data />
       <Assistant />
       <Customize />
+      <Work />
+      <Graph />
     </main>
   );
 }
