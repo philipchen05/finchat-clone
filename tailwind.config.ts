@@ -26,6 +26,7 @@ const config: Config = {
         lightGrey: "#49495b",
         highlighter: '#ffe7ba',
         dataDarkGrey: "#5e5e74",
+        almostBlack: '#262421',
       },
       animation: {
         scroll: 'scroll 20s linear infinite',

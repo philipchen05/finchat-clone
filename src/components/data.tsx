@@ -6,7 +6,7 @@ export default function Data() {
     return(
         <div className="flex lg:flex-row flex-col-reverse items-center gap-y-20 mt-48 mx-12 md:mx-24">
             <div className="relative h-80 md:h-96 w-[80%] lg:w-[1000px]">
-                <div className="flex items-center mt-[50%] ml-[75%] lg:ml-[65%] shadow-xl bg-white rounded-full w-36 h-36 lg:w-44 lg:h-44 bg-opacity-30">
+                <div className="flex items-center mt-[50%] ml-[75%] lg:ml-[65%] shadow-xl bg-white rounded-full w-32 h-32 lg:w-44 lg:h-44 bg-opacity-30">
                     <svg stroke="#53bc68" fill="none" stroke-width="4" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" className="h-[90px] w-full lg:h-[120px]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                         <polyline points="20 6 9 17 4 12"></polyline>
                     </svg>
