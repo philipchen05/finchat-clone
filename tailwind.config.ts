@@ -24,6 +24,8 @@ const config: Config = {
         barRed: "#ea4335",
         borderGrey: "#2c2c35",
         lightGrey: "#49495b",
+        highlighter: '#ffe7ba',
+        dataDarkGrey: "#5e5e74",
       },
       animation: {
         scroll: 'scroll 20s linear infinite',

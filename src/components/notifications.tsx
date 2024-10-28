@@ -5,7 +5,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] })
 
 export default function Notifications() {
     return(
-        <div className={`${jakartaSans.className} relative w-screen h-screen overflow-hidden text-sm`}>
+        <div className={`${jakartaSans.className} relative w-screen h-max overflow-hidden text-sm`}>
             <div className="flex gap-[460px]">
                 <div className="ml-7 mt-28">
                     <div className="flex gap-3 items-end">
