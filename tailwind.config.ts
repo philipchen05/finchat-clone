@@ -30,6 +30,7 @@ const config: Config = {
         chatGrey: "#5e5e74",
         chatText: "#d8d9df",
         chatProfile: "#3f404d",
+        veryLightGrey: "#e1e3e1",
       },
       animation: {
         scroll: 'scroll 20s linear infinite',

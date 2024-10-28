@@ -8,6 +8,8 @@ import Chat from "../components/chat"
 import Customize from "../components/customize"
 import Work from "../components/work"
 import Graph from "../components/graph"
+import Testimonials from "../components/testimonials"
+import Information from "../components/information"
 
 export default function Home() {
   return (
@@ -22,6 +24,8 @@ export default function Home() {
       <Customize />
       <Work />
       <Graph />
+      <Testimonials />
+      <Information />
     </main>
   );
 }
