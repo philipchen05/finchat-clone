@@ -8,7 +8,7 @@ export default function Chat() {
             <div className="flex flex-col gap-4 bg-greyBox w-[950px] h-[550px] rounded-3xl px-10 py-5">
                 <div className="flex justify-end items-center gap-3">
                     <div className="flex flex-col justify-center bg-chatGrey w-[340px] h-14 rounded-xl px-5 text-lg">
-                        Summarize microsoft's last quarter.
+                        Summarize microsoft&apos;s last quarter.
                     </div>
                     <div className="bg-chatProfile rounded-full w-10 h-10 opacity-85"></div>
                 </div>

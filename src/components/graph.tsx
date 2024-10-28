@@ -11,7 +11,7 @@ export default function Graph() {
                 FinChat v. LLMs
             </h1>
             <h3 className={`${jakartaSans.className} text-center text-balance tracking-wide md:leading-relaxed md:mx-[25%] text-gray-900 text-lg`}>
-                FinanceBench is the industry standard for evaluating LLM's on financial questions.
+                FinanceBench is the industry standard for evaluating LLM&apos;s on financial questions.
             </h3>
             <img src="https://finchat.io/_next/image/?url=%2Fassets%2Fmarketing-pages%2Ffinance-bench-graph.png&w=2048&q=75" className="w-[600px] rounded-md" />
             <h5 className={`${jakartaSans.className} text-center text-balance tracking-wide leading-none mx-2 text-gray-900 text-xs`}>

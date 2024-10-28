@@ -2,7 +2,7 @@ import { Plus_Jakarta_Sans } from 'next/font/google'
 
 const jakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] })
 
-export default function Data() {
+export default function Work() {
     return(
         <div className="flex gap-x-8 lg:flex-row lg:justify-evenly flex-col items-center gap-y-20 mt-48 mx-12 md:mx-24">
             <div className="flex flex-col justify-center gap-y-4 w-full px-28 lg:px-0 lg:w-1/2 lg:mb-36">
