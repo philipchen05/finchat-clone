@@ -5,7 +5,7 @@ const jakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] })
 export default function Data() {
     return(
         <div className="flex lg:flex-row flex-col items-center gap-y-20 mt-48 mx-12 md:mx-24">
-            <div className="flex flex-col justify-center gap-y-4 md:ml-36 w-full">
+            <div className="flex flex-col justify-center gap-y-4 w-full">
                 <h1 className={`${jakartaSans.className} text-balance tracking-wide leading-none text-gray-900  text-4xl`}>
                     Your own AI assistant.
                 </h1>

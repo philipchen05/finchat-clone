@@ -10,7 +10,7 @@ export default function Notifications() {
                 <div className="ml-7 mt-28">
                     <div className="flex gap-3 items-end">
                         <div className="flex items-center bg-greyBox w-72 h-14 rounded-lg rounded-br-none px-4">
-                            Summarize Microsoft's last quarter...
+                            Summarize Microsoft&apos;s last quarter...
                         </div>
                         <div className="bg-greyBox rounded-full w-8 h-8 opacity-85"></div>
                     </div>
