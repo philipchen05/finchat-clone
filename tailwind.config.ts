@@ -27,6 +27,9 @@ const config: Config = {
         highlighter: '#ffe7ba',
         dataDarkGrey: "#5e5e74",
         almostBlack: '#262421',
+        chatGrey: "#5e5e74",
+        chatText: "#d8d9df",
+        chatProfile: "#3f404d",
       },
       animation: {
         scroll: 'scroll 20s linear infinite',
