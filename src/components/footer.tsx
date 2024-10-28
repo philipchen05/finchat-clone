@@ -1,59 +1,76 @@
+'use client'
+import { useState } from 'react'
 import { Plus_Jakarta_Sans } from 'next/font/google'
 
 const jakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] })
 
 export default function Footer() {
+    const [input, setInput] = useState("");
+
+    function getSubmitButton() {
+        if(input.length > 0) {
+            return(
+                <button className="absolute top-[15%] left-2 bg-black w-8 h-8 rounded-full flex justify-center items-center">
+                    <svg stroke="#FFFFFF" fill="#FFFFFF" stroke-width="0" viewBox="0 0 256 256" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M213.66,165.66a8,8,0,0,1-11.32,0L128,91.31,53.66,165.66a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,0l80,80A8,8,0,0,1,213.66,165.66Z"></path></svg>
+                </button>
+            )
+        } else {
+            return(
+                <button disabled className="absolute top-[15%] left-2 bg-white w-8 h-8 rounded-full flex justify-center items-center cursor-not-allowed">
+                    <svg stroke="#777169" fill="#777169" stroke-width="0" viewBox="0 0 256 256" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M213.66,165.66a8,8,0,0,1-11.32,0L128,91.31,53.66,165.66a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,0l80,80A8,8,0,0,1,213.66,165.66Z"></path></svg>
+                </button>
+            )
+        }
+    }
+
     return(
-        <footer className="pb-48">
-            <div className={`${jakartaSans.className} relative px-24 py-48 -mt-12 bg-white rounded-3xl mx-4 text-black flex justify-evenly gap-80 row`}>
-                <div className="col-md-5 offset-md-1 mb-3">
+        <footer className="pb-12">
+            <div className={`${jakartaSans.className} relative px-24 py-48 -mt-12 bg-white rounded-3xl mx-4 text-black md:flex md:justify-evenly md:row`}>
+                <div className="col-md-5 offset-md-1 mb-8 md:mb-3 w-full">
                     <h2 className="text-3xl leading-normal">Stay informed with<br />our newsletter.</h2>
-                    <p className="text-greyText mt-4">Weekly earnings, insights, research & news.</p>
+                    <p className="text-greyText mt-1 md:mt-4">Weekly earnings, insights, research & news.</p>
                     <form action="#" method="POST">
-                        <div className="bg-white w-6 h-6">
-                            <svg stroke="black" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M213.66,165.66a8,8,0,0,1-11.32,0L128,91.31,53.66,165.66a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,0l80,80A8,8,0,0,1,213.66,165.66Z"></path></svg>
-                        </div>
-                        <div className="mt-2.5">
+                        <div className="relative z-50 mt-2.5 h-12">
+                            {getSubmitButton()}
                             <input
-                            id="company"
-                            name="company"
+                            id="email"
+                            name="email"
                             type="text"
-                            autoComplete="organization"
                             placeholder="Enter your email"
-                            className={`${jakartaSans.className} flex flex-col justify-center h-12 md:h-14 bg-grey w-full rounded-full border-0 px-5 py-2 text-gray-900 placeholder:text-greyText placeholder:md:text-base placeholder:text-sm shadow-inner`}
+                            onChange={(e) => setInput(e.target.value)}
+                            className={`${jakartaSans.className} flex flex-col justify-center h-full bg-grey w-80 rounded-full border-0 px-12 py-2 text-gray-900 placeholder:text-greyText placeholder:md:text-base placeholder:text-sm shadow-inner`}
                             />
                         </div>
                     </form>
                 </div>
-                    <div className="flex gap-16">
-                        <div className="col-6 col-md-2 mb-3">
-                            <h5 className="text-greyText text-xs tracking-wider mb-3">COMPANY</h5>
-                            <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Careers</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">LinkedIn</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Twitter/X</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Contact</a></li>
-                            </ul>
-                        </div>
-
-                        <div className="col-6 col-md-2 mb-3">
-                            <h5 className="text-greyText text-xs tracking-wider mb-3">PRODUCT</h5>
-                            <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Pricing</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Enterprise</a></li>
-                            </ul>
-                        </div>
-
-                        <div className="col-6 col-md-2 mb-3">
-                            <h5 className="text-greyText text-xs tracking-wider mb-3">RESOURCES</h5>
-                            <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Affiliater</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Blog</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Newsletter</a></li>
-                            </ul>
-                        </div>
+                <div className="flex gap-16 md:ml-0 -ml-3">
+                    <div className="col-6 col-md-2 mb-3">
+                        <h5 className="text-greyText text-xs tracking-wider mb-3">COMPANY</h5>
+                        <ul className="nav flex-column">
+                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Careers</a></li>
+                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">LinkedIn</a></li>
+                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Twitter/X</a></li>
+                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Contact</a></li>
+                        </ul>
                     </div>
 
+                    <div className="col-6 col-md-2 mb-3">
+                        <h5 className="text-greyText text-xs tracking-wider mb-3">PRODUCT</h5>
+                        <ul className="nav flex-column">
+                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Pricing</a></li>
+                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Enterprise</a></li>
+                        </ul>
+                    </div>
+
+                    <div className="col-6 col-md-2 mb-3">
+                        <h5 className="text-greyText text-xs tracking-wider mb-3">RESOURCES</h5>
+                        <ul className="nav flex-column">
+                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Affiliater</a></li>
+                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Blog</a></li>
+                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Newsletter</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
             <div className={`${jakartaSans.className} flex flex-col md:flex-row py-3 px-6 border-top text-greyText text-xs gap-y-3`}>
