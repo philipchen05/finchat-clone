@@ -8,7 +8,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] })
 
 export default function Hero() {
   return (
-    <div className="bg-darkWhite mb-48">
+    <div className="bg-darkWhite mb-44">
       <div className="isolate px-6 pt-14 lg:px-8">
         <div
           aria-hidden="true"

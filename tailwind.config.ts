@@ -19,6 +19,11 @@ const config: Config = {
         grey: "#e8e6e3",
         darkGrey: "#bdbbb9",
         greyText: "#777169",
+        greyBox: "#30313b",
+        barBlue: "#05a6f0",
+        barRed: "#ea4335",
+        borderGrey: "#2c2c35",
+        lightGrey: "#49495b",
       },
       animation: {
         scroll: 'scroll 20s linear infinite',

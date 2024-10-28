@@ -1,8 +1,6 @@
-import Icon from "../app/icon.ico"
-
 export default function Partners() {
     return(
-        <div className="overflow-hidden w-full h-64">
+        <div className="overflow-hidden w-full mb-40">
             <div className="flex w-[200%] animate-scroll space-x-4 gap-16 justify-center items-center">
                 <img src="https://finchat.io/_next/image/?url=%2Fassets%2Fmarquee-logos%2Fbaskin.png&w=1920&q=75" alt="Baskin" className="h-10" />
                 <img src="https://finchat.io/_next/image/?url=%2Fassets%2Fmarquee-logos%2Fbcg.png&w=1920&q=75" alt="BCG" className="h-10" />
