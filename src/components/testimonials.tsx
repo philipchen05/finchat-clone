@@ -1,6 +1,5 @@
-import { Plus_Jakarta_Sans, Space_Grotesk } from 'next/font/google'
+import { Space_Grotesk } from 'next/font/google'
 
-const jakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] })
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] })
 
 export default function Testimonials() {

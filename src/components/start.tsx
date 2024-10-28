@@ -1,6 +1,5 @@
-import { Plus_Jakarta_Sans, Space_Grotesk, DM_Mono } from 'next/font/google'
+import { Space_Grotesk, DM_Mono } from 'next/font/google'
 
-const jakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] })
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] })
 const dmMono = DM_Mono({ subsets: ['latin'], weight: ['400', '500'] });
 

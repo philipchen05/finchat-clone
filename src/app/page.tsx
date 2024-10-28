@@ -11,6 +11,7 @@ import Graph from "../components/graph"
 import Testimonials from "../components/testimonials"
 import Information from "../components/information"
 import Start from "../components/start"
+import Footer from "../components/footer"
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <Testimonials />
       <Information />
       <Start />
+      <Footer />
     </main>
   );
 }
