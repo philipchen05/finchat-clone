@@ -30,7 +30,7 @@ export default function Hero() {
             </h1>
             <div className={`${jakartaSans.className} mb-4 mx-4 mt-16 sm:mt-24 grid grid-cols-1 sm:grid-cols-2 gap-3 text-black text-sm sm:text-base`}>
                 <button className="bg-white rounded-md h-14 md:h-16 px-2 flex flex-col justify-center text-left">
-                    What are Mark Zuckerberg's and Satya Nadella's recent comments about AI?
+                    What are Mark Zuckerberg&apos;s and Satya Nadella&apos;s recent comments about AI?
                 </button>
                 <button className="bg-white rounded-md h-14 md:h-16 px-2 flex flex-col justify-center text-left">
                     How many new large deals did ServiceNow sign in the last quarter?
@@ -39,7 +39,7 @@ export default function Hero() {
                     Write me a detailed description of all of MercadoLibre segments and products.
                 </button>
                 <button className="bg-white rounded-md h-14 md:h-16 px-2 flex flex-col justify-center text-left">
-                    How have Amazon's focus areas changed?
+                    How have Amazon&apos;s focus areas changed?
                 </button>
             </div>
             <Searchbar />

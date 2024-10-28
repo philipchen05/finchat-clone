@@ -3,6 +3,7 @@ import Hero from "../components/hero";
 import Partners from "../components/partners"
 import Notifications from "../components/notifications"
 import Data from "../components/data"
+import Assistant from "../components/assistant"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Partners />
       <Notifications />
       <Data />
+      <Assistant />
     </main>
   );
 }

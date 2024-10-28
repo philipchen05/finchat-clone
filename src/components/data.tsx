@@ -18,7 +18,7 @@ export default function Data() {
                     Better data for better<br />decisions.
                 </h1>
                 <h3 className={`${jakartaSans.className} text-balance tracking-wide leading-relaxed text-gray-900 text-base`}>
-                    <span className="bg-highlighter">Institutional-quality data</span> that's been verified by human equity analysts. Our trusted, in-depth information helps you capitalize on opportunities.
+                    <span className="bg-highlighter">Institutional-quality data</span> that&apos;s been verified by human equity analysts. Our trusted, in-depth information helps you capitalize on opportunities.
                 </h3>
                 <div className="bg-dataDarkGrey text-white px-3 font-semibold rounded-full py-1 text-xs w-[325px]">Financials and estimates by S&P Market Intelligence</div>
                 <div className="bg-dataDarkGrey text-white px-3 font-semibold rounded-full py-1 text-xs w-[280px]">Segments and KPIs by FinChat Verified Data</div>
