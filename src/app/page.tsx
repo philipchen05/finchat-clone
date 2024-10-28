@@ -10,6 +10,7 @@ import Work from "../components/work"
 import Graph from "../components/graph"
 import Testimonials from "../components/testimonials"
 import Information from "../components/information"
+import Start from "../components/start"
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Graph />
       <Testimonials />
       <Information />
+      <Start />
     </main>
   );
 }
