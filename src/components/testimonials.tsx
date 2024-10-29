@@ -12,7 +12,7 @@ export default function Testimonials() {
             </h1>
             <div className="overflow-hidden">
                 <div className="mb-40 mt-20 flex w-[500%] animate-scroll2 justify-center items-centerspace-x-4 gap-12 place-items-center">
-                    <div className="grid grid-cols-4 grid-rows-3 gap-6 w-8/12">
+                    <div className="max-w-3xl grid grid-cols-4 grid-rows-3 gap-6 w-8/12">
                         <div className="row-span-2 flex justify-center pt-[25%]">
                             <img src="https://finchat.io/_next/image/?url=%2Fassets%2Fmarquee-logos%2Fbcg.png&w=1920&q=75" alt="BCG" className="h-10" />
                         </div>
@@ -26,7 +26,7 @@ export default function Testimonials() {
                             <img src="https://finchat.io/_next/image/?url=%2Fassets%2Fmarquee-logos%2Fmckinsey.png&w=1920&q=75" alt="McKinsey" className="h-12" />
                         </div>
                     </div>
-                    <div className="grid grid-cols-6 grid-rows-3 gap-6 w-8/12">
+                    <div className="max-w-3xl grid grid-cols-6 grid-rows-3 gap-6 w-8/12">
                         <div className="row-span-1 col-span-5">
                             <Tweet profile="https://finchat.io/_next/image/?url=%2Fassets%2Fimages%2Ftestimonials%2Fbill.jpg&w=2048&q=75" name="Bill Brewster" username="BillBrewsterTBB" content="This Team has designed a great product and takes data quality very seriously." comments={1} shares={2} likes={3} bookmarks={8} />
                         </div>
@@ -43,7 +43,7 @@ export default function Testimonials() {
                             <Quote profile="https://finchat.io/_next/image/?url=%2Fassets%2Fimages%2Ftestimonials%2Fwyatt.jpg&w=256&q=75" name="Wyatt Sparks" position="Portfolio Manager" company="Sea Meadow Capital" quote="I've enjoyed using FinChat to source opportunities within my investable universe. The whole team is responsive to client feedback regarding coverage. A great resource for managers." />
                         </div>
                     </div>
-                    <div className="grid grid-cols-4 grid-rows-3 gap-6 w-8/12">
+                    <div className="max-w-3xl grid grid-cols-4 grid-rows-3 gap-6 w-8/12">
                         <div className="row-span-1 col-span-3">
                             <Tweet profile="https://finchat.io/_next/image/?url=%2Fassets%2Fimages%2Ftestimonials%2Fbrian.jpg&w=2048&q=75" name="Brian Feroldi" username="BrianFeroldi" content="The most intuitive platform I've ever seen for tracking business fundamentals" comments={8} shares={47} likes={475} bookmarks={301} />
                         </div>
@@ -57,7 +57,7 @@ export default function Testimonials() {
                             <Quote profile="https://finchat.io/_next/image/?url=%2Fassets%2Fimages%2Ftestimonials%2Fjesper.jpg&w=256&q=75" name="Jesper Jensen" position="Principal." company="Allianz" quote="It's amazing - like having a Bloomberg terminal at your fingertips." />
                         </div>
                     </div>
-                    <div className="grid grid-cols-3 grid-rows-2 gap-6 w-7/12">
+                    <div className="max-w-3xl grid grid-cols-3 grid-rows-2 gap-6 w-7/12">
                         <div className="flex items-center justify-center col-span-3 pt-12">
                             <Quote profile="https://finchat.io/_next/image/?url=%2Fassets%2Fimages%2Ftestimonials%2Flinas.jpg&w=256&q=75" name="Linas Beliūnas" position="Linas' Newsletter" company="Read by 180,000 investors" quote="FinChat is a generative AI tool that will become the most powerful equity analyst ever." />
                         </div>
@@ -69,7 +69,7 @@ export default function Testimonials() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-4 grid-rows-3 gap-6 w-8/12">
+                    <div className="max-w-3xl grid grid-cols-4 grid-rows-3 gap-6 w-8/12">
                         <div className="row-span-2 flex justify-center pt-[25%]">
                             <img src="https://finchat.io/_next/image/?url=%2Fassets%2Fmarquee-logos%2Fbcg.png&w=1920&q=75" alt="BCG" className="h-10" />
                         </div>
@@ -83,7 +83,7 @@ export default function Testimonials() {
                             <img src="https://finchat.io/_next/image/?url=%2Fassets%2Fmarquee-logos%2Fmckinsey.png&w=1920&q=75" alt="McKinsey" className="h-12" />
                         </div>
                     </div>
-                    <div className="grid grid-cols-6 grid-rows-3 gap-6 w-8/12">
+                    <div className="max-w-3xl grid grid-cols-6 grid-rows-3 gap-6 w-8/12">
                         <div className="row-span-1 col-span-5">
                             <Tweet profile="https://finchat.io/_next/image/?url=%2Fassets%2Fimages%2Ftestimonials%2Fbill.jpg&w=2048&q=75" name="Bill Brewster" username="BillBrewsterTBB" content="This Team has designed a great product and takes data quality very seriously." comments={1} shares={2} likes={3} bookmarks={8} />
                         </div>
@@ -100,7 +100,7 @@ export default function Testimonials() {
                             <Quote profile="https://finchat.io/_next/image/?url=%2Fassets%2Fimages%2Ftestimonials%2Fwyatt.jpg&w=256&q=75" name="Wyatt Sparks" position="Portfolio Manager" company="Sea Meadow Capital" quote="I've enjoyed using FinChat to source opportunities within my investable universe. The whole team is responsive to client feedback regarding coverage. A great resource for managers." />
                         </div>
                     </div>
-                    <div className="grid grid-cols-4 grid-rows-3 gap-6 w-8/12">
+                    <div className="max-w-3xl grid grid-cols-4 grid-rows-3 gap-6 w-8/12">
                         <div className="row-span-1 col-span-3">
                             <Tweet profile="https://finchat.io/_next/image/?url=%2Fassets%2Fimages%2Ftestimonials%2Fbrian.jpg&w=2048&q=75" name="Brian Feroldi" username="BrianFeroldi" content="The most intuitive platform I've ever seen for tracking business fundamentals" comments={8} shares={47} likes={475} bookmarks={301} />
                         </div>
@@ -114,7 +114,7 @@ export default function Testimonials() {
                             <Quote profile="https://finchat.io/_next/image/?url=%2Fassets%2Fimages%2Ftestimonials%2Fjesper.jpg&w=256&q=75" name="Jesper Jensen" position="Principal." company="Allianz" quote="It's amazing - like having a Bloomberg terminal at your fingertips." />
                         </div>
                     </div>
-                    <div className="grid grid-cols-3 grid-rows-2 gap-6 w-7/12">
+                    <div className="max-w-3xl grid grid-cols-3 grid-rows-2 gap-6 w-7/12">
                         <div className="flex items-center justify-center col-span-3 pt-12">
                             <Quote profile="https://finchat.io/_next/image/?url=%2Fassets%2Fimages%2Ftestimonials%2Flinas.jpg&w=256&q=75" name="Linas Beliūnas" position="Linas' Newsletter" company="Read by 180,000 investors" quote="FinChat is a generative AI tool that will become the most powerful equity analyst ever." />
                         </div>

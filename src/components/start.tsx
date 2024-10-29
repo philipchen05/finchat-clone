@@ -5,8 +5,8 @@ const dmMono = DM_Mono({ subsets: ['latin'], weight: ['400', '500'] });
 
 export default function Start() {
     return(
-        <div className="relative z-40 flex justify-center bg-white p-32 mt-52 rounded-3xl shadow-xl mx-4">
-            <div className="flex flex-col justify-center items-center gap-y-4 w-[90%]">
+        <div className="flex-col max-w-7xl relative z-40 flex justify-center bg-white p-32 mt-52 rounded-3xl shadow-xl mx-4">
+            <div className="flex flex-col justify-center items-center gap-y-4">
                 <h1 className={`${spaceGrotesk.className} text-center text-balance tracking-wide leading-none font-medium text-gray-900 text-4xl sm:text-5xl md:text-6xl`}>
                 Discover how FinChat can supercharge your research.
                 </h1>

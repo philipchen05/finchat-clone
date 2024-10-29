@@ -24,11 +24,11 @@ export default function Hero() {
               </a>
             </button>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <h1 className={`${spaceGrotesk.className} text-center text-balance tracking-wide leading-none mx-2 font-semibold text-gray-900 text-4xl sm:text-5xl md:text-6xl`}>
                 The future of investment research, powered by AI.
             </h1>
-            <div className={`${jakartaSans.className} mb-4 mx-4 mt-16 sm:mt-24 grid grid-cols-1 sm:grid-cols-2 gap-3 text-black text-sm sm:text-base`}>
+            <div className={`${jakartaSans.className} max-w-5xl mb-4 mx-4 mt-16 sm:mt-24 grid grid-cols-1 sm:grid-cols-2 gap-3 text-black text-sm sm:text-base`}>
                 <button className="bg-white rounded-md h-14 md:h-16 px-2 flex flex-col justify-center text-left">
                     What are Mark Zuckerberg&apos;s and Satya Nadella&apos;s recent comments about AI?
                 </button>

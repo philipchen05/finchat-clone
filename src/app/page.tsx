@@ -9,15 +9,21 @@ import Footer from "../components/footer"
 
 export default function Home() {
   return (
-    <main className="bg-customWhite h-[8000px]">
+    <main className="bg-customWhite">
       <Navbar />
       <Hero />
       <Partners />
-      <Features />
+      <div className="flex justify-center overflow-hidden">
+        <Features />
+      </div>
       <Testimonials />
       <Information />
-      <Start />
-      <Footer />
+      <div className="flex justify-center">
+        <Start />
+      </div>
+      <div className="flex justify-center">
+        <Footer />
+      </div>
     </main>
   );
 }

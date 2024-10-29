@@ -5,7 +5,7 @@ import { Plus_Jakarta_Sans } from 'next/font/google';
 const jakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
 export default function Searchbar() {return (
-    <form action="#" method="POST">
+    <form action="#" method="POST" className="max-w-5xl w-full" >
         <div className="mt-2.5">
             <input
             id="company"
@@ -16,6 +16,6 @@ export default function Searchbar() {return (
             className={`${jakartaSans.className} flex flex-col justify-center h-12 md:h-14 bg-gradient-to-r from-amber-100 to-orange-300 w-full rounded-full border-0 px-5 py-2 text-gray-900 placeholder:text-greyText placeholder:md:text-base placeholder:text-sm shadow-inner focus:outline-none`}
             />
         </div>
-      </form>
+    </form>
   )
 }

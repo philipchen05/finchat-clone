@@ -8,7 +8,7 @@ import Graph from "../components/graph"
 
 export default function Features() {
     return(
-        <div>
+        <div className="max-w-7xl">
             <Notifications />
             <Data />
             <Assistant />

@@ -24,8 +24,8 @@ export default function Footer() {
     }
 
     return(
-        <footer className="pb-12">
-            <div className={`${jakartaSans.className} relative px-24 py-48 -mt-12 bg-white rounded-3xl mx-4 text-black md:flex md:justify-evenly md:row`}>
+        <footer className="pb-12 flex flex-col w-full max-w-7xl mx-4">
+            <div className={`${jakartaSans.className} relative px-24 py-48 -mt-12 bg-white rounded-3xl text-black md:flex md:justify-evenly md:row`}>
                 <div className="col-md-5 offset-md-1 mb-8 md:mb-3 w-full">
                     <h2 className="text-3xl leading-normal">Stay informed with<br />our newsletter.</h2>
                     <p className="text-greyText mt-1 md:mt-4">Weekly earnings, insights, research & news.</p>
