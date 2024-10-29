@@ -1,1 +1,1 @@
-Replication of FinChat.io's landing page.
+FinChat.io landing page clone.
