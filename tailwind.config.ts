@@ -9,9 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       keyframes: {
-        scroll: {
+        scroll1: {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-81%)' },
+        },
+        scroll2: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50.35%)' },
         },
       },
       colors: {
@@ -33,7 +37,8 @@ const config: Config = {
         veryLightGrey: "#e1e3e1",
       },
       animation: {
-        scroll: 'scroll 20s linear infinite',
+        scroll1: 'scroll1 20s linear infinite',
+        scroll2: 'scroll2 30s linear infinite',
       },
     },
   },

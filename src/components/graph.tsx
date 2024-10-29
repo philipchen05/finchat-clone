@@ -1,4 +1,3 @@
-
 import { Plus_Jakarta_Sans, Space_Grotesk } from 'next/font/google'
 
 const jakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] })

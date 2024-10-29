@@ -38,7 +38,7 @@ export default function Footer() {
                             type="text"
                             placeholder="Enter your email"
                             onChange={(e) => setInput(e.target.value)}
-                            className={`${jakartaSans.className} flex flex-col justify-center h-full bg-grey w-80 rounded-full border-0 px-12 py-2 text-gray-900 placeholder:text-greyText placeholder:md:text-base placeholder:text-sm shadow-inner`}
+                            className={`${jakartaSans.className} flex flex-col justify-center h-full bg-grey w-80 rounded-full border-0 px-12 py-2 text-gray-900 placeholder:text-greyText placeholder:md:text-base placeholder:text-sm shadow-inner focus:outline-none`}
                             />
                         </div>
                     </form>

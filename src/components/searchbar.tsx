@@ -13,7 +13,7 @@ export default function Searchbar() {return (
             type="text"
             autoComplete="organization"
             placeholder="Search your next investment idea..."
-            className={`${jakartaSans.className} flex flex-col justify-center h-12 md:h-14 bg-gradient-to-r from-amber-100 to-orange-300 w-full rounded-full border-0 px-5 py-2 text-gray-900 placeholder:text-greyText placeholder:md:text-base placeholder:text-sm shadow-inner`}
+            className={`${jakartaSans.className} flex flex-col justify-center h-12 md:h-14 bg-gradient-to-r from-amber-100 to-orange-300 w-full rounded-full border-0 px-5 py-2 text-gray-900 placeholder:text-greyText placeholder:md:text-base placeholder:text-sm shadow-inner focus:outline-none`}
             />
         </div>
       </form>
